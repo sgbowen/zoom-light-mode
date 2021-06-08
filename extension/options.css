@@ -1,0 +1,17 @@
+body {
+    background-color: #ddd;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+input { 
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 14pt;
+    background-color: powderblue;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body>
+    <form id="save-colors-form">
+      <p>Enter the colors you want to use in Zoom here. You can use color names like "red", RGB, or hexadecimal values. You will need to refresh any Zoom tab you have open for changes to take effect.</p>
+      <label>Background #1</label><br /><input id="bg-1-input" type="text" name="bg1" /><br />
+      <label>Background #2</label><br /><input id="bg-2-input" type="text" name="bg2" /><br />
+      <label>Background #3</label><br /><input id="bg-3-input" type="text" name="bg3" /><br />
+      <label>Foreground #1</label><br /><input id="fg-1-input" type="text" name="fg1" /><br />
+      <label>Confirm Button</label><br /><input id="confirm-input" type="text" name="confirm" /><br />
+      <label>Cancel Button</label><br /><input id="cancel-input" type="text" name="cancel" /><br />
+      <button id="save-colors-button" type="submit">Save</button><br />
+      <button id="reset-colors-button">Reset</button>
+    </form>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

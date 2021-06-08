@@ -1,0 +1,354 @@
+:root {
+    --bg-1: rgb(230,230,230) !important;
+    --bg-2: rgb(215,215,215) !important;
+    --bg-3: rgb(200,200,200) !important;
+    --fg-1: black !important;
+    /* TODO: Allow modifying confirm and cancel buttons. */
+    --confirm-button: powderblue;
+    --cancel-button: lightcoral;
+    --image-invert: invert(85%);
+}
+
+body {
+    background-color: var(--bg-1);
+    color: var(--fg-1);
+}
+
+/* Gallery view */
+div.gallery-video-container__wrap {
+    background-color: var(--bg-2);
+}
+div.gallery-video-container__main-view {
+    background-color: var(--bg-1);
+}
+button.gallery-video-container__switch-button {
+    background-color: var(--bg-3);
+    /* TODO: color not working */
+    color: var(--fg-1);
+}
+div.gallery-video-container__pagination {
+    color: var(--fg-1);
+}
+
+/* Speaker bar view */
+div.speaker-bar-container__horizontal-view-wrap {
+background-color: var(--bg-1);
+}
+button.speaker-bar-container__switch-button {
+    background-color: var(--bg-2);
+}
+button.speaker-bar-container__switch-button {
+    background-color: var(--bg-3);
+}
+span.speaker-bar-container__arrow.speaker-bar-container__arrow--back, span.speaker-bar-container__arrow.speaker-bar-container__arrow--next {
+    filter:invert(85%);
+}
+div.speaker-view  {
+    background-color: var(--bg-1);
+}
+
+/* User avatars */
+div.video-avatar__avatar-title {
+    background: var(--bg-1);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.video-avatar__avatar-footer {
+    background: rgba(255,255,255,.7);
+    color: black;
+}
+span.video-avatar__avatar-name {
+    color: var(--fg-1);
+}
+button.zm-btn.video-avatar__group-btn.video-opt-buttons-container__group-btn.zm-btn--default.zm-btn__outline--blue, 
+.recording-indication__recording-container.recording-indication__recording-container--has-opt {
+    background: var(--bg-2);
+    color: var(--fg-1);
+}
+button.zm-btn.video-avatar__group-btn.video-opt-buttons-container__group-btn.zm-btn--default.zm-btn__outline--blue:hover {
+    background: var(--bg-3);
+}
+i.recording-indication__rec-text-icon,
+i.recording-indication__pause-rec-icon,
+i.recording-indication__stop-rec-icon {
+    filter: var(--image-invert);
+}
+div.recording-indication__preview {
+    background-color: var(--bg-2);
+    color: var(--fg-1);
+}
+
+/* Top menu buttons */
+/* Meeting info */
+button.meeting-info-icon__icon-wrap.ax-outline-blue, .full-screen-icon {
+    background-color: var(--bg-2);
+}
+.meeting-info-icon__icon {
+    filter:brightness(65%);
+}
+div.zmu-paper.meeting-info-icon__meeting-paper {
+    background-color: var(--bg-2);
+    color: var(--fg-1);
+}
+div.meeting-info-icon__row-title, div.meeting-info-icon__info-dc {
+    color: var(--fg-1);
+}
+button.meeting-info-icon__copy-button.ax-outline-blue {
+    color: steelblue;
+}
+div.meeting-info-icon__input-wrap:hover {
+    background-color: var(--bg-3);
+}
+span.meeting-info-icon__edit-icon {
+    filter:var(--image-invert);
+}
+/* Full screen icon */
+.full-screen-widget__icon {
+    filter: invert(85%);
+}
+div.global-popover.full-screen-widget__tooltip__container {
+    background-color: var(--bg-2);
+}
+div#global-popover__body {
+    color: var(--fg-1);
+}
+i.full-screen-widget--speaker-icon, i.full-screen-widget--gallery-icon {
+    filter: var(--image-invert);
+}
+button.full-screen-widget__button.dropdown-toggle.btn.btn-default {
+    color: var(--fg-1);
+}
+div.full-screen-icon.meeting-info-container__full-screen {
+    background: var(--bg-2);
+}
+button.full-screen-widget__button.dropdown-toggle.btn.btn-default {
+    background: var(--bg-3);
+}
+
+/* Notifications */
+div.notification-message-wrap__layer {
+    background: var(--bg-3);
+}
+span.notification-message-wrap__txt,
+.lt-toast span.disclaimer__button-text {
+    color: var(--fg-1);
+}
+i.notification-message-wrap__close.close-jd.ax-outline,
+i.disclaimer__icon {
+    filter: var(--image-invert);
+}
+button.zmu-btn.dark.ax-outline.zmu-btn--default.zmu-btn__outline--blue {
+    background: var(--bg-1);
+    color: var(--fg-1);
+}
+button.zmu-btn.dark.ax-outline.zmu-btn--default.zmu-btn__outline--blue:hover {
+    background: var(--bg-2);
+}
+.zmu-tooltip-zmu-paper.disclaimer.disclaimer--LT {
+    background: var(--bg-2);
+    color: var(--fg-1);
+}
+div.zmu-tooltip-zmu-paper__triangle.zmu-tooltip-zmu-paper__triangle--top-border {
+    background: var(--bg-2);
+}
+div.show-tip {
+    background-color: var(--bg-2);
+    color: var(--fg-1);
+}
+
+/* Fullscreen dialogs */
+.suspension-window-container.suspension-video-container__container.suspension-window-container--show.suspension-window-container--show-1.react-draggable {
+    background: var(--bg-1);
+}
+button.suspension-window-container__tab,
+span.suspension-window-container__tab-2,
+span.suspension-window-container__tab-3 {
+    filter: var(--image-invert);
+}
+button.suspension-window-container__tab:hover,
+span.suspension-window-container__tab-2:hover,
+span.suspension-window-container__tab-3:hover {
+    background: var(--bg-2) !important;
+}
+button.suspension-window-container__tab--active:hover,
+span.suspension-window-container__tab-2--active:hover,
+span.suspension-window-container__tab-3--active:hover {
+    background: var(--bg-2) !important;
+}
+div.suspension-video-container__talking-indicator {
+    color: var(--fg-1);
+}
+
+/* Join dialog */
+div.join-dialog {
+    background-color: var(--bg-2);
+}
+div.zmu-tabs__tab-container.zmu-tabs__tab-container--top, div.tab-bar-node {
+    background-color: var(--bg-2);
+}
+span.tab-bar-node__text,
+div.join-audio-by-phone,
+span.join-audio-by-phone__toll-country {
+    color: var(--fg-1);
+}
+.tab-bar-node__icon, button.zm-btn.join-dialog__close.zm-btn--default.zm-btn__outline--blue {
+    filter: var(--image-invert);
+}
+
+
+/* Blue buttons */
+button.zm-btn.join-audio-by-voip__join-btn.zm-btn--primary.zm-btn__outline--white.zm-btn--lg,
+button.ax-outline-blue-important.dropdown-toggle.btn.btn-xs.btn-primary,
+button.button-margin-right.ax-outline-blue.btn.btn-xs.btn-primary,
+button.zmu-btn.ax-outline.zmu-btn--primary.zmu-btn__outline--blue {
+    background-color:var(--confirm-button);
+    color: var(--fg-1);
+}
+button.zm-btn.join-audio-by-voip__join-btn.zm-btn--primary.zm-btn__outline--white.zm-btn--lg:hover,
+button.ax-outline-blue-important.dropdown-toggle.btn.btn-xs.btn-primary:hover,
+button.button-margin-right.ax-outline-blue.btn.btn-xs.btn-primary:hover,
+button.zmu-btn.ax-outline.zmu-btn--primary.zmu-btn__outline--blue:hover {
+    background-color:skyblue;
+}
+
+/* Chat */
+div.last-chat-message-tip__container.false {
+    background: var(--bg-1);
+    color: var(--fg-1);
+}
+div.footer-button__button--active-animate {
+    color: var(--fg-1);
+}
+
+
+/* Screen share */
+div.sharer-controlbar-container__overlay, div.sharee-sharing-indicator__tip {
+    background-color: lightgreen;
+    color: var(--fg-1);
+}
+button.sharer-button {
+    color: var(--fg-1);
+}
+ul.sharee-sharing-indicator__menu.dropdown-menu {
+    background-color: var(--bg-2);
+}
+i.sharee-sharing-indicator__dropdown-icon {
+    filter: var(--image-invert);
+}
+button#sharingViewOptions {
+    background-color: var(--bg-2) !important;
+    color: var(--fg-1) !important;
+}
+
+/* Captioning */
+div#live-transcription-subtitle {
+    background: var(--bg-1);
+    color: var(--fg-1);
+    border: 1px black solid;
+}
+
+/* Footer */
+.footer__inner {
+    background-color: var(--bg-2);
+    background-image: none !important;
+    color: var(--fg-1);
+}
+div.more-button__button-label, span.security-option-menu__button-text, button.join-audio-container__btn, button.send-video-container__btn {
+    color: var(--fg-1);
+    opacity: 1 !important;
+}
+
+button.zm-btn.join-audio-container__btn.zm-btn--default.zm-btn__outline--blue.zm-btn-icon:hover {
+    background: var(--bg-2);
+}
+button.zm-btn.send-video-container__btn.zm-btn--default.zm-btn__outline--blue.zm-btn-icon:hover,
+button.footer-button__button:hover,
+button.security-option-menu__button:hover,
+button#moreButton:hover {
+    background:var(--bg-3) !important;
+}
+button.zm-btn.send-video-container__btn.zm-btn--default.zm-btn__outline--blue.zm-btn-icon:focus,
+button.footer-button__button:focus,
+button.security-option-menu__button:focus,
+button#moreButton:focus,
+#wc-footer div.open button.more-button__button.dropdown-toggle.btn-default,
+#wc-footer div.open button.security-option-menu__button.dropdown-toggle.btn-default {
+    background:var(--bg-3) !important;
+}
+
+.footer-button__chat-icon, .footer-button__participants-icon, .sharing-setting-dropdown-menu-container__button,
+.more-button__more-icon, .security-option-menu__button-icon, .footer-button__no-record-icon, .footer-button__closed-caption-icon-normal,
+.footer-button__breakout-room-icon, button#videoOptionMenu, button#audioOptionMenu,
+.footer-button-pause-stop-recording__pause-record, .footer-button-pause-stop-recording__stop-record, button#liveTranscriptionPermissionMenu {
+    filter:var(--image-invert);
+}
+.zm-icon-start-video, .zm-icon-join-video, i.zm-icon.zm-icon-join-audio, i.zm-icon-stop-video, i.zm-icon.zm-icon-voip-muted, i.zm-icon.zm-icon-voip-unmuted, i.zm-icon.zm-icon-voip-active {
+    filter: var(--image-invert);
+}
+.join-audio-container.join-audio-container--active {
+    background:var(--bg-3);
+}
+.footer-button__share-icon {
+    filter:brightness(15%);
+}
+
+/* Red buttons */
+button.zmu-btn.footer__leave-btn.ax-outline.ellipsis.zmu-btn--danger.zmu-btn__outline--blue,
+button.zm-btn.join-audio-by-voip__join-btn.zm-btn--brown.zm-btn__outline--white.zm-btn--lg,
+button.zmu-btn.leave-meeting-options__btn.leave-meeting-options__btn--default.leave-meeting-options__btn--danger.zmu-btn--default.zmu-btn__outline--white {
+    background-color: var(--cancel-button);
+    color: var(--fg-1);
+}
+button.zmu-btn.footer__leave-btn.ax-outline.ellipsis.zmu-btn--danger.zmu-btn__outline--blue:hover,
+button.zm-btn.join-audio-by-voip__join-btn.zm-btn--brown.zm-btn__outline--white.zm-btn--lg,
+button.zmu-btn.leave-meeting-options__btn.leave-meeting-options__btn--default.leave-meeting-options__btn--danger.zmu-btn--default.zmu-btn__outline--white {
+    background-color: tomato;
+}
+
+/* Leave call */
+div.leave-meeting-options {
+    background-color: var(--bg-1);
+}
+button.zmu-btn.leave-meeting-options__btn.leave-meeting-options__btn--default.zmu-btn--default.zmu-btn__outline--white,
+button.zmu-btn.leave-option-container__cancel-btn.zmu-btn--ghost.zmu-btn__outline--blue {
+    background-color: var(--bg-2);
+    color: var(--fg-1);
+}
+button.zmu-btn.leave-option-container__cancel-btn.zmu-btn--ghost.zmu-btn__outline--blue {
+    background-color: var(--bg-2);
+}
+
+/* Dropdown menus */
+ul.security-option-menu__pop-menu.dropdown-menu, ul.sharing-setting-dropdown-menu-container__popup-menu.dropdown-menu, ul.more-button__pop-menu.dropdown-menu, 
+ul.audio-option-menu__pop-menu.dropdown-menu, ul.video-option-menu__pop-menu.dropdown-menu, .full-screen-icon.meeting-info-container__full-screen, div.lt-dropbox,
+ul.full-screen-widget__pop-menu.dropdown-menu, ul.avatar-menu.dropdown-menu.dropdown-menu-right, ul.sharee-sharing-indicator__menu.dropdown-menu,
+ul.lt-setting-dropdown-menu-container__popup-menu.dropdown-menu {
+    background:var(--bg-3);
+}
+ul.security-option-menu__pop-menu.dropdown-menu a, ul.sharing-setting-dropdown-menu-container__popup-menu.dropdown-menu a, ul.more-button__pop-menu.dropdown-menu a, 
+ul.audio-option-menu__pop-menu.dropdown-menu a, ul.video-option-menu__pop-menu.dropdown-menu a, .full-screen-icon.meeting-info-container__full-screen a, div.lt-dropbox p,
+ul.audio-option-menu__pop-menu.dropdown-menu li, ul.video-option-menu__pop-menu.dropdown-menu li, ul.security-option-menu__pop-menu.dropdown-menu li,
+ul.full-screen-widget__pop-menu.dropdown-menu a, ul.avatar-menu.dropdown-menu.dropdown-menu-right a, 
+li.sharee-sharing-indicator__item>a,
+ul.lt-setting-dropdown-menu-container__popup-menu.dropdown-menu a {
+    color: var(--fg-1) !important;
+}
+ul.security-option-menu__pop-menu.dropdown-menu a:hover, ul.sharing-setting-dropdown-menu-container__popup-menu.dropdown-menu a:hover, ul.more-button__pop-menu.dropdown-menu a:hover, 
+ul.audio-option-menu__pop-menu.dropdown-menu a:hover, ul.video-option-menu__pop-menu.dropdown-menu a:hover, .full-screen-icon.meeting-info-container__full-screen a:hover,
+ul.full-screen-widget__pop-menu.dropdown-menu a:hover, ul.avatar-menu.dropdown-menu.dropdown-menu-right a:hover, 
+li.sharee-sharing-indicator__item>a:hover,
+ul.lt-setting-dropdown-menu-container__popup-menu.dropdown-menu a:hover {
+    color: var(--fg-1) !important;
+}
+.security-option-menu__pop-menu--checked>a:before, .sharing-setting-dropdown-menu-container__popup-menu--checked>a:before, 
+.audio-option-menu__pop-menu--checked>a:before, .video-option-menu__pop-menu--checked>a:before,
+.full-screen-icon.meeting-info-container__full-screen>a:before,
+.full-screen-widget__pop-menu--checked>a:before,
+li.sharee-sharing-indicator__item>a:before {
+    filter: brightness(5%);
+}
+.video-option-menu__pop-menu>li.dropdown-header, .audio-option-menu__pop-menu>li.dropdown-header {
+    color: var(--fg-1);
+}

@@ -1,0 +1,1 @@
+export const defaultPalette = [{"bg1": "rgb(230,230,230)"}, {"bg2": "rgb(215,215,215)"}, {"bg3": "rgb(200,200,200)"}, {"fg1": "black"}];

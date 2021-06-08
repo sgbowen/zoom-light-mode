@@ -1,0 +1,20 @@
+body {
+    background-color: #eee;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14pt;
+    padding:15px;
+}
+
+input { 
+    font-family: sans-serif;
+    font-size: 14pt;
+    margin: 5px;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 14pt;
+    background-color: powderblue;
+    margin: 5px;
+}
